@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>DEEPtective</title>
+    <link rel="icon" type="image/x-icon" href="public/icons8-d-100.png">
+    <meta property="og:title" content="Soft UI Pro" />
+    <meta name="viewport" content="width=device-width, initial-scale=0.75" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Open Sans;
+        font-size: 1rem;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.625;
+        color: var(--dl-color-secondary-400);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+    <style>
+      html * {
+          -webkit-font-smoothing: antialiased;
+      }
+      input::placeholder, textarea::placeholder {
+         color: #d2d6da;
+      }
+    </style>
+    <style>
+      [data-thq="thq-dropdown"]:hover > [data-thq="thq-dropdown-list"] {
+          display: flex;
+        }
+
+        [data-thq="thq-dropdown"]:hover > div [data-thq="thq-dropdown-arrow"] {
+          transform: rotate(90deg);
+        }
+    </style>
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./index.css" rel="stylesheet" />
+
+      <div class="home-container">
+        <div data-role="Header" class="home-header">
+          <nav class="home-nav">
+            <div class="home-container01">
+              <a href="#home" class="home-navlink">DEEPtective</a>
+              <div class="home-menu">
+                <a href="#home" class="home-link">Home</a>
+                <a href="#tool" class="home-link1">Deepfake Detection Tool</a>
+                <a href="#ab" class="home-link2">
+                  <span>About us</span>
+                  <br />
+                </a>
+              </div>
+              <div class="home-container02">
+                <div class="home-container03"></div>
+                <div data-role="BurgerMenu" class="home-burger-menu">
+                  <svg viewBox="0 0 1024 1024" class="home-icon">
+                    <path
+                      d="M128 256h768v86h-768v-86zM128 554v-84h768v84h-768zM128 768v-86h768v86h-768z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </nav>
+          <div data-role="MobileMenu" class="home-mobile-menu">
+            <div class="home-top">
+              <a href="index.html" class="home-navlink1 Large">
+                Soft UI Design System
+              </a>
+              <div data-role="CloseMobileMenu" class="home-close-menu">
+                <svg viewBox="0 0 1024 1024" class="home-icon2">
+                  <path
+                    d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+            <div class="home-mid">
+              <div class="home-menu1">
+                <a href="index.html" class="home-navlink2 Large">Home</a>
+                <span class="home-text05 Large">Profile</span>
+                <span class="home-text06 Large">Coming Soon</span>
+              </div>
+            </div>
+            <div class="home-bot">
+              <div class="primary-pink-button-container">
+                <button class="primary-pink-button-button button ButtonSmall">
+                  <span>buy now</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="home" class="home-hero">
+          <div class="home-container04">
+            <div class="home-card">
+              <h1 class="home-text07">Deepfake Audio &amp; Video</h1>
+              <h1 class="home-text08">Detection using AI/ML Techniques</h1>
+              <span class="home-text09">
+                In today's world, discerning real media from artificial media can be challenging. 
+                This deepfake detection tool employs AI/ML techniques which in turn empowers users to analyze 
+                online audios and videos for authenticity, fostering a more informed online experience. 
+              </span>
+              <div class="home-container05">
+                <div class="home-container06">
+                  <a href="#tool" class="home-link3">
+                    <div class="primary-pink-button-container">
+                      <button
+                        class="primary-pink-button-button button ButtonSmall"
+                      >
+                        <span>Deepfake Detection Tool</span>
+                      </button>
+                    </div>
+                  </a>
+                </div>
+                <a href="#ab" class="home-link4">
+                  <div class="outline-gray-button-container">
+                    <button
+                      class="outline-gray-button-button button ButtonSmall"
+                    >
+                      <span>About us</span>
+                    </button>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <section class="home-features">
+          <h2 class="home-text10">
+            <span>Background</span>
+            <br />
+          </h2>
+          <div class="home-container07">
+            <span class="home-text36">
+              Synthetic media, driven by advanced technologies like machine learning has 
+              massively transformed digital content creation. This ranges from visuals to 
+              lifelike videos and synthetic voices, and all of which have raised concerns about 
+              misinformation, privacy breaches, and fraud given that this allows realistics 
+              manipulation of videos. Deepfake audios and videos leverage sophisticated 
+              techniques such as Generative Adversarial Networks (GANs) and deep neural networks. 
+              These models analyze and mimic intricate patterns within large datasets, enabling 
+              the synthesis of realistic facial expressions, lip movements, and voice characteristics.
+              <br>
+              <br>
+              <img src="public/deepfakkes.jpeg" alt="Deepfake Illustration" width=80% class="center">
+              <br>
+              Mockups like the ones above, showcase the ability of deepfake technology.  
+              Although deepfake technology was initially celebrated for enhancing creativity, 
+              in today’s era, the misuse of deepfake technology carries significant risks. In 
+              video and audio, deepfakes can create lifelike forgeries, impacting financial markets, 
+              enabling scams, and posing threats to political stability. Additionally, individuals 
+              may face identity theft, fraud, and reputational harm. Striking a balance between 
+              innovation and ethical use is crucial in navigating the complexities of deepfake technology.
+
+            </span>
+            
+          </div>
+        </section>
+        <img alt="image" src="public/sq.png" class="home-image" />
+        <div class="home-stats">
+          <div class="home-stat">
+            <h1 class="home-text23">73%</h1>
+            <span class="home-text24">People</span>
+            <span class="home-text25">
+              According to a 2022 study by RAND Corporation, 73% of social media
+              users encountered deepfakes or manipulated content between 2021 and
+              2022.
+            </span>
+          </div>
+          <div class="home-stat1">
+            <h1 class="home-text26">96%</h1>
+            <span class="home-text27">Deepfakes</span>
+            <span class="home-text28">
+              A 2021 report from DFValley.ai suggests that 96% of deepfakes
+              analyzed by them were solely focused on manipulating faces.
+            </span>
+          </div>
+          <div class="home-stat2">
+            <h1 class="home-text29">x5</h1>
+            <span class="home-text30">Growth Rate</span>
+            <span class="home-text31">
+              The '2023 State of Deepfakes Report' reveals a fivefold increase
+              in deepfake videos from 2019 to 2020, with the instances doubling
+              approximately every six months.
+            </span>
+          </div>
+          <div class="home-stat3">
+            <h1 class="home-text32">1.3</h1>
+            <span class="home-text33">Trillion</span>
+            <span class="home-text34">
+              A 2020 McAfee report estimated that deepfakes could possibly cost
+              businesses globally a staggering $1.3 trillion by 2025 due to
+              fraud and reputational damage.
+            </span>
+          </div>
+        </div>
+        <div class="home-banner">
+          <h2 class="home-text35">Objective</h2>
+          <span class="home-text36">
+            The objective of our project is to develop and implement 
+            deepfake audio and video detection models using various AI/ML 
+            techniques. This project tackles the challenge of audio deepfakes 
+            by focusing specifically on identifying synthetic speech, and focuses 
+            on face manipulation content in the realm of video deepfakes. Ultimately, 
+            our project aims to contribute to combating the proliferation of deepfakes 
+            on the internet while providing a user-friendly platform for real-time 
+            detection using the best performing AI/ML model for audios and videos respectively.
+
+          </span>
+        </div>
+        <section class="home-features1">
+          <h2 class="home-text37">Features of the Tool</h2>
+          <div class="home-container09">
+            <div class="feature-card-container feature-card-root-class-name2">
+              <img
+                alt="image"
+                src="public/cube1.svg"
+                class="feature-card-image"
+              />
+              <h5 class="feature-card-text HeadingThree">
+                <span>Real-Time Deepfake Detection</span>
+              </h5>
+              <span class="feature-card-text1">
+                <span>
+                  Instantaneously identify manipulated content that enables
+                  protection against the spread of misinformation.
+                </span>
+              </span>
+            </div>
+            <div class="feature-card-container feature-card-root-class-name1">
+              <img
+                alt="image"
+                src="public/rocket1.svg"
+                class="feature-card-image"
+              />
+              <h5 class="feature-card-text HeadingThree">
+                <span>Unified Authentication Experience</span>
+              </h5>
+              <span class="feature-card-text1">
+                <span>
+                  Effortlessly validate the authenticity of images, videos, and
+                  audio through our comprehensive content authentication across
+                  varied formats.
+                </span>
+              </span>
+            </div>
+            <div class="feature-card-container feature-card-root-class-name">
+              <img
+                alt="image"
+                src="public/person1.svg"
+                class="feature-card-image"
+              />
+              <h5 class="feature-card-text HeadingThree">
+                <span>User-Friendly <br>Interface</span>
+              </h5>
+              <span class="feature-card-text1">
+                <span>
+                  Effortlessly navigate this user-friendly interface by simply
+                  uploading your file and receiving instant predictions with ease.
+                </span>
+              </span>
+            </div>
+          </div>
+        </section>
+        <div id="tool" class="home-tool">
+          <div class="home-container10">
+            <span class="home-text38">Deepfake <br> Detection Tool</span>
+            <span class="home-text39">
+              To initiate the process, please submit video files (.avi or .mp4), audio files (.mp3 or .wav or .flac),
+              or image files (.png or .jpg).
+            </span>
+          </div>
+          <iframe src="https:/deeptective-upload.streamlit.app/?embed=true&embed_options=light_theme" width=100%, height=300></iframe>
+        </div>
+        <section class="home-about-us">
+          <div id="ab" class="home-container12">
+            <div class="home-container13">
+              <h2 id="aboutus" class="home-text40">About us</h2>
+              <p class="home-text41">
+                <span>
+                  This web application was developed for the project
+                  requirements of the 6th semester, B.Voc. Data Science
+                  and Analytics course at Mount Carmel College Autonomous,
+                  Bengaluru.<br> This project was undertaken by Aarushi
+                  Vishwanathan, Rumana Shethwala, and Sarah Arshad (Batch of
+                  2021-24).
+                </span>
+                <br />
+                <br />
+                <span>
+                  We express our profound gratitude to Dr. Mangesh Mankar for his invaluable guidance.
+                  His expertise and passion have shaped our journey, instilling
+                  innovation and excellence. 
+                </span>
+              </p>
+              <div class="home-container14">
+                <img
+                  alt="image"
+                  src="public/AV.jpeg"
+                  class="home-image1"
+                />
+                <div class="home-container15"></div>
+                <img
+                  alt="image"
+                  src="public/RS.jpeg"
+                  class="home-image2"
+                />
+                <div class="home-container16"></div>
+                <img
+                  alt="image"
+                  src="public/SA.jpeg"
+                  class="home-image3"
+                />
+              </div>
+            </div>
+          </div>
+          <img alt="image" src="public/waves-white.svg" class="home-image4" />
+        </section>
+      </div>
+    </div>
+    <script
+      defer=""
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script>
+  </body>
+</html>
